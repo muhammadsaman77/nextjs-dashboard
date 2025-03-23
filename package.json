@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "postinstall": "pnpm approve-builds",
+    "postinstall": "pnpm approve-builds --yes",
     "dev": "next dev --turbopack",
     "start": "next start"
   },
